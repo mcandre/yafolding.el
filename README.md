@@ -31,8 +31,7 @@ To give it a keybinding:
 ### Hook into prog-mode-hook
 
 ```emacs-lisp
-(add-hook 'prog-mode-hook
-          (lambda () (yafolding-mode)))
+(add-hook 'prog-mode-hook 'yafolding-mode)
 ```
 
 ### Modify keybindings
